@@ -1,0 +1,12 @@
+git branch master
+git checkout master
+git branch -d master
+
+git remote set-url origin https://github.com/r19gomes/deal-test-consultion-of-manual-movements.git
+
+git remote add origin https://github.com/r19gomes/deal-test-consultion-of-manual-movements.git
+
+git push --set-upstream origin master
+
+git config --global user.name "Roberto Gomes da Silva"
+git config --global user.email r19gomes@gmail.com"
