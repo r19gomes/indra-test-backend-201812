@@ -1,0 +1,9 @@
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.deps.json
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.pdb
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.csprojAssemblyReference.cache
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.csproj.CoreCompileInputs.cache
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.AssemblyInfoInputs.cache
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.AssemblyInfo.cs
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.pdb
