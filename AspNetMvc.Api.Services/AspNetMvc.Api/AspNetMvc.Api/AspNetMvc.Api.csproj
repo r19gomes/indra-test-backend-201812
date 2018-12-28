@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\AspNetMvc.Api.CrossCutting\AspNetMvc.Api.CrossCutting.Dtos\AspNetMvc.Api.CrossCutting.Dtos.csproj" />
-    <ProjectReference Include="..\..\..\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\AspNetMvc.Api.Domains.Bussiness.csproj" />
+    <ProjectReference Include="..\..\..\AspNetMvc.Api.Applications\Applications\AspNetMvc.Api.Applications.csproj" />
+    <ProjectReference Include="..\..\..\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\AspNetMvc.Api.Domains.csproj" />
   </ItemGroup>
 
 </Project>

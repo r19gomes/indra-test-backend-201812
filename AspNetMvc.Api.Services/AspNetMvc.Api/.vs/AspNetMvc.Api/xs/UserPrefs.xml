@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{862B217D-449C-42D1-B3B9-901B5B5E8BA0}|Default">
+  <MonoDevelop.Ide.ItemProperties.1-Services.AspNetMvc.Api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

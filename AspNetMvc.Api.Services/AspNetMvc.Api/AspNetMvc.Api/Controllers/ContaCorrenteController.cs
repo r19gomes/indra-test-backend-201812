@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AspNetMvc.Api.Applications.Service.ContaCorrente;
+using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using AspNetMvc.Api.CrossCutting.Dtos;
+using System;
 
 namespace AspNetMvc.Api.Controllers
 {
@@ -12,16 +10,24 @@ namespace AspNetMvc.Api.Controllers
     [ApiController]
     public class ContaCorrenteController : ControllerBase
     {
-        public CrossCutting.Dtos.ContaCorrente.ContaCorrenteResponse 
-            Get(CrossCutting.Dtos.ContaCorrente.ContaCorrenteRequest request)
+        private readonly IContaCorrenteAppService _contaCorrenteAppService;
+        public ContaCorrenteController(IContaCorrenteAppService contaCorrenteAppService)
         {
-            var response = new CrossCutting.Dtos.ContaCorrente.ContaCorrenteResponse();
+            _contaCorrenteAppService = contaCorrenteAppService;
+        }
+
+        public ContaCorrenteResponse Get(ContaCorrenteRequest request)
+        {
+            var response = new ContaCorrenteResponse();
 
             try
             {
-                var teste = new Domains.Bussiness.ContaCorrente.ContaCorrenteBussiness();
-                teste.Get();
+                //response = _contaCorrenteAppService.Get(null);
 
+                if (response.ContaCorrente.Count == 0)
+                {
+                    response.Message = "Dados da Conta corrente não encontrado!";
+                }
                 return null;
             }
             catch (Exception ex)
@@ -29,7 +35,7 @@ namespace AspNetMvc.Api.Controllers
                 response.ResourceCode = string.Empty;
                 response.ErrorCode = 1;
                 response.Message = "Erro ao obter a lista de Conta Corrente.";
-                response.Erros.Add(new CrossCutting.Dtos.Error(ex.Message, "", ex.StackTrace));
+                response.Erros.Add(new Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
             }
 
             return response;

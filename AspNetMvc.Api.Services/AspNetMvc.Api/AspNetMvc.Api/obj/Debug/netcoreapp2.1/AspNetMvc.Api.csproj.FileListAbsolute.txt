@@ -44,3 +44,8 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Servic
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csproj.CopyComplete
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csproj.CopyComplete

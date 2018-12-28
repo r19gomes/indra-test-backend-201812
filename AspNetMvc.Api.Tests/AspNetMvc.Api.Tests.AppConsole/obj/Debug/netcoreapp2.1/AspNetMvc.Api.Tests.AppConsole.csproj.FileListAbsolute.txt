@@ -1,0 +1,14 @@
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.deps.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.runtimeconfig.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.runtimeconfig.dev.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Infrastructures.DataAccess.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Infrastructures.DataAccess.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.csprojAssemblyReference.cache
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.csproj.CoreCompileInputs.cache
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.AssemblyInfoInputs.cache
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.AssemblyInfo.cs
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.csproj.CopyComplete
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.pdb
