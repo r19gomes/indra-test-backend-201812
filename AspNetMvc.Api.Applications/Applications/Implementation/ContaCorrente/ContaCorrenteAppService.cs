@@ -9,12 +9,13 @@ namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
     public class ContaCorrenteAppService : IContaCorrenteAppService
     {
         private readonly IContaCorrenteServices _contaCorrenteService;
+
         public ContaCorrenteAppService(IContaCorrenteServices contaCorrenteService)
         {
             _contaCorrenteService = contaCorrenteService;
         }
 
-        public ContaCorrenteResponse GetAll(ContaCorrenteRequest request)
+        public ContaCorrenteResponse GetAll()
         {
             return _contaCorrenteService.GetAll();
         }

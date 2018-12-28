@@ -6,39 +6,41 @@ using System;
 
 namespace AspNetMvc.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/conta-corrente/")]
     [ApiController]
     public class ContaCorrenteController : ControllerBase
     {
-        private readonly IContaCorrenteAppService _contaCorrenteAppService;
-        public ContaCorrenteController(IContaCorrenteAppService contaCorrenteAppService)
-        {
-            _contaCorrenteAppService = contaCorrenteAppService;
-        }
+        //private readonly IContaCorrenteAppService _contaCorrenteAppService;
+        //public ContaCorrenteController(IContaCorrenteAppService contaCorrenteAppService)
+        //{
+        //    _contaCorrenteAppService = contaCorrenteAppService;
+        //}
 
-        public ContaCorrenteResponse Get(ContaCorrenteRequest request)
+        [HttpGet]
+        public ActionResult<ContaCorrenteResponse> Get(ContaCorrenteRequest request)
         {
             var response = new ContaCorrenteResponse();
 
-            try
-            {
-                //response = _contaCorrenteAppService.Get(null);
+            //try
+            //{
+            //    //response = _contaCorrenteAppService.Get(null);
 
-                if (response.ContaCorrente.Count == 0)
-                {
-                    response.Message = "Dados da Conta corrente não encontrado!";
-                }
-                return null;
-            }
-            catch (Exception ex)
-            {
-                response.ResourceCode = string.Empty;
-                response.ErrorCode = 1;
-                response.Message = "Erro ao obter a lista de Conta Corrente.";
-                response.Erros.Add(new Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
-            }
+            //    if (response.ContaCorrente.Count == 0)
+            //    {
+            //        response.Message = "Dados da Conta corrente não encontrado!";
+            //    }
+            //    return null;
+            //}
+            //catch (Exception ex)
+            //{
+            //    response.ResourceCode = string.Empty;
+            //    response.ErrorCode = 1;
+            //    response.Message = "Erro ao obter a lista de Conta Corrente.";
+            //    response.Erros.Add(new Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
+            //}
 
             return response;
         }
+
     }
 }
