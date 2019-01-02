@@ -27,20 +27,20 @@ namespace WebApplication1.Controllers
 
             try
             {
-                //response = _contaCorrenteAppService.GetAll();
+                response = _contaCorrenteAppService.GetAll();
 
-                //    if (response.ContaCorrente.Count == 0)
-                //    {
-                //        response.Message = "Dados da Conta corrente não encontrado!";
-                //    }
-                //    return null;
+                if (response.ContaCorrente.Count == 0)
+                {
+                    response.Message = "Dados da Conta corrente não encontrado!";
+                }
+                return null;
             }
             catch (Exception ex)
             {
-            //    response.ResourceCode = string.Empty;
-            //    response.ErrorCode = 1;
-            //    response.Message = "Erro ao obter a lista de Conta Corrente.";
-            //    response.Erros.Add(new Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
+                response.ResourceCode = string.Empty;
+                response.ErrorCode = 1;
+                response.Message = "Erro ao obter a lista de Conta Corrente.";
+                response.Erros.Add(new AspNetMvc.Api.Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
             }
 
             return response;

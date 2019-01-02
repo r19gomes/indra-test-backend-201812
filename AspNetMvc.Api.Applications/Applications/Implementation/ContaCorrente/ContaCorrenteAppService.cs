@@ -2,6 +2,7 @@
 using AspNetMvc.Api.Domains.Contracts;
 using AspNetMvc.Api.Domains.Contracts.Services;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
+using AspNetMvc.Api.Domains.Services;
 using System;
 
 namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
@@ -10,7 +11,11 @@ namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
     {
         private readonly IContaCorrenteServices _contaCorrenteService;
 
-        public ContaCorrenteAppService(IContaCorrenteServices contaCorrenteService)
+        public ContaCorrenteAppService()
+        {
+
+        }
+        public ContaCorrenteAppService(IContaCorrenteServices contaCorrenteService) : base()
         {
             _contaCorrenteService = contaCorrenteService;
         }

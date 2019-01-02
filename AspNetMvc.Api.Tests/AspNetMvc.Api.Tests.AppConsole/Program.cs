@@ -1,8 +1,8 @@
-﻿using System;
-using AspNetMvc.Api.Infrastructures.DataAccess.Models;
-using Microsoft.EntityFrameworkCore;
-using static System.Console;
+﻿using AspNetMvc.Api.Infrastructures.DataAccess.Entities;
+using System;
 using System.Linq;
+using static System.Console;
+using DbContext = AspNetMvc.Api.Infrastructures.DataAccess.Contexts.DbContext;
 
 namespace AppConsole
 {
@@ -14,7 +14,7 @@ namespace AppConsole
 
             int total = 0;
 
-            using (var ctx = new BaseContext())
+            using (var ctx = new DbContext())
             {
                 #region BANCO 
 

@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lamar" Version="2.0.1" />
-    <PackageReference Include="Lamar.Microsoft.DependencyInjection" Version="2.0.1" />
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\AspNetMvc.Api.Applications\Applications\AspNetMvc.Api.Applications.csproj" />
     <ProjectReference Include="..\..\AspNetMvc.Api.Domains\AspNetMvc.Api.Domains.Bussiness\AspNetMvc.Api.Domains.csproj" />
+    <ProjectReference Include="..\..\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\AspNetMvc.Api.Infrastructures.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,20 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AspNetMvc.Api.Applications.Implementation.ContaCorrente;
+﻿using AspNetMvc.Api.Applications.Implementation.ContaCorrente;
 using AspNetMvc.Api.Applications.Service.ContaCorrente;
-using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
+using AspNetMvc.Api.Domains.Contracts.Repositories;
+using AspNetMvc.Api.Domains.Contracts.Services;
+using AspNetMvc.Api.Domains.Services;
+using AspNetMvc.Api.Infrastructures.DataAccess.Repositorios;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Lamar;
-using Microsoft.AspNetCore.Http;
 
 namespace WebApplication1
 {
@@ -28,14 +22,59 @@ namespace WebApplication1
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        //public void ConfigureServices(IServiceCollection services)
+        //{
+        //    services
+        //        .AddMvc()
+        //        .AddControllersAsServices()
+        //        .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+        //    //services.AddSingleton<IContaCorrenteAppService, ContaCorrenteAppService>();
+        //    //services.AddScoped<IContaCorrenteAppService, ContaCorrenteAppService>();
+        //    //services.AddTransient<IContaCorrenteAppService, ContaCorrenteAppService>();
+        //    //services.AddSingleton<IContaCorrenteAppService>(x => x.GetRequiredService<ContaCorrenteAppService>());
+
+        //    //services.RegisterAllTypes<IContaCorrenteAppService>(new[] { typeof(Startup).Assembly });
+
+        //    services.AddTransient<IContaCorrenteAppService, ContaCorrenteAppService>();
+        //    //services.AddHttpClient<IContaCorrenteAppService, ContaCorrenteAppService>();
+
+        //    // Create an Autofac Container and push the framework services
+        //    //var containerBuilder = new ContainerBuilder();
+        //    //containerBuilder.Populate(services);
+
+        //    //// Register your own services within Autofac
+        //    //containerBuilder.RegisterType<IContaCorrenteAppService>().As<IContaCorrenteAppService>();
+
+        //    //// Build the container and return an IServiceProvider from Autofac
+        //    //var container = containerBuilder.Build();
+        //    //return container.Resolve<IServiceProvider>();
+        //}
+
+        //public IServiceProvider ConfigureServices(IServiceCollection services)
+        //{
+        //    services.AddMvc();
+
+        //    // Create the container builder.
+        //    var builder = new ContainerBuilder();
+        //    builder.RegisterType<ContaCorrenteAppService>().As<IContaCorrenteAppService>();
+        //    builder.Populate(services);
+        //    var container = builder.Build();
+
+        //    // Create the IServiceProvider based on the container.
+        //    return new AutofacServiceProvider(container);
+        //}
+
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services
+                .AddMvc()
+                .AddControllersAsServices()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            //services.AddSingleton<IContaCorrenteAppService, ContaCorrenteAppService>();
-            //services.AddScoped<IContaCorrenteAppService, ContaCorrenteAppService>();
-            //services.AddTransient<IContaCorrenteAppService, ContaCorrenteAppService>();
-            //services.AddSingleton<IContaCorrenteAppService>(x => x.GetRequiredService<ContaCorrenteAppService>());
+            services.AddScoped<IContaCorrenteRepositories, ContaCorrenteRepositories>();
+            services.AddScoped<IContaCorrenteServices, ContaCorrenteServices>();
+            services.AddScoped<IContaCorrenteAppService, ContaCorrenteAppService>();
 
         }
 

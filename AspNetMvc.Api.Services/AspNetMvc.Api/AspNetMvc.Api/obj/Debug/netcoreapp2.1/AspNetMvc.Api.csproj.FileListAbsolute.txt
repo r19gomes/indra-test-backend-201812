@@ -30,10 +30,6 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Servic
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.runtimeconfig.dev.json
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.pdb
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.CrossCutting.Dtos.dll
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.dll
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.CrossCutting.Dtos.pdb
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.Bussiness.pdb
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csprojAssemblyReference.cache
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csproj.CoreCompileInputs.cache
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.RazorAssemblyInfo.cache
@@ -49,3 +45,7 @@ D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetM
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csproj.CopyComplete
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb

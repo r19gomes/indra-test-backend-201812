@@ -9,6 +9,6 @@ namespace AspNetMvc.Api.Domains.Dtos.ContaCorrente
             ContaCorrente = new List<ContaCorrente>();
         }
 
-        public List<ContaCorrente> ContaCorrente { get; set; }
+        public IList<ContaCorrente> ContaCorrente { get; set; }
     }
 }

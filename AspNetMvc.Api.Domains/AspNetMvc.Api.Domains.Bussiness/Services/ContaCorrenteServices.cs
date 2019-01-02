@@ -12,7 +12,11 @@ namespace AspNetMvc.Api.Domains.Services
     {
         private readonly IContaCorrenteRepositories _contaCorrenteRepositories;
 
-        public ContaCorrenteServices(IContaCorrenteRepositories contaCorrenteRepositories)
+        public ContaCorrenteServices()
+        {
+
+        }
+        public ContaCorrenteServices(IContaCorrenteRepositories contaCorrenteRepositories):base()
         {
             _contaCorrenteRepositories = contaCorrenteRepositories;
         }
@@ -26,8 +30,14 @@ namespace AspNetMvc.Api.Domains.Services
 
         public ContaCorrenteResponse GetAll()
         {
-            _contaCorrenteRepositories.GetAll();
-            throw new NotImplementedException();
+            var response = new ContaCorrenteResponse();
+
+            IList<ContaCorrente> contaCorrente;
+            contaCorrente = _contaCorrenteRepositories.GetAll();
+
+            response.ContaCorrente = contaCorrente;
+
+            return response;
         }
     }
 }

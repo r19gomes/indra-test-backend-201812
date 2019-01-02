@@ -5,8 +5,6 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applic
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.deps.json
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.CrossCutting.Dtos.dll
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.CrossCutting.Dtos.pdb
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.csproj.CopyComplete
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
@@ -22,3 +20,5 @@ D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\App
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.csproj.CopyComplete
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.pdb
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Applications\Applications\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
