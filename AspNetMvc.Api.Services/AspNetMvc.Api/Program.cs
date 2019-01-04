@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace WebApplication1
+namespace AspNetMvc.Api
 {
     public class Program
     {

@@ -12727,7 +12727,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\AspNetMvc.Api\\AspNetMvc.Api.csproj",
-      "projectName": "AspNetMvc.Api",
+      "projectName": "'",
       "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\AspNetMvc.Api\\AspNetMvc.Api.csproj",
       "packagesPath": "C:\\Users\\Roberto Gomes\\.nuget\\packages\\",
       "outputPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\AspNetMvc.Api\\obj\\",

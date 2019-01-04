@@ -6,7 +6,7 @@ using AspNetMvc.Api.Applications.Contract.ContaCorrente;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebApplication1.Controllers
+namespace AspNetMvc.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
