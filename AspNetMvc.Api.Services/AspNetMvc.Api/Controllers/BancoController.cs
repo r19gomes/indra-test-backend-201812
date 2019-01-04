@@ -18,5 +18,11 @@ namespace AspNetMvc.Api.Controllers
         {
             _bancoAppService = bancoAppService;
         }
+
+        [HttpGet]
+        public string Get()
+        {
+            return "Roberto";
+        }
     }
 }

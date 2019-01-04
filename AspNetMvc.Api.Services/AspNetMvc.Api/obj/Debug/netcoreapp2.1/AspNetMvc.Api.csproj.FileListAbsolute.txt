@@ -1,8 +1,3 @@
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\'.deps.json
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\'.runtimeconfig.json
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\'.runtimeconfig.dev.json
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\'.dll
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\'.pdb
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Applications.dll
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Infrastructures.DataAccess.dll
@@ -17,5 +12,10 @@ D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetM
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.AssemblyInfo.cs
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.RazorTargetAssemblyInfo.cache
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.csproj.CopyComplete
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\'.dll
-D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\'.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.deps.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.runtimeconfig.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.runtimeconfig.dev.json
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\bin\Debug\netcoreapp2.1\AspNetMvc.Api.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Services\AspNetMvc.Api\obj\Debug\netcoreapp2.1\AspNetMvc.Api.pdb
