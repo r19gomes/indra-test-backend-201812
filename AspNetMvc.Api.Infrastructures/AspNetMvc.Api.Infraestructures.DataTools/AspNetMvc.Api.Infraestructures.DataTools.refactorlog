@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f8848d73-eb62-4117-b4a7-fa19e2612758" ChangeDateTime="12/31/2018 16:33:30">
+    <Property Name="ElementName" Value="[dbo].[Bancos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bancos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BancoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="66d7da06-1ec0-4fec-9197-78a1806fbe45" ChangeDateTime="12/31/2018 17:14:11">
+    <Property Name="ElementName" Value="[dbo].[Agencias].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Agencias]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AgenciaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2418abab-efaf-4d96-a65c-e6b9802f1859" ChangeDateTime="12/31/2018 17:32:43">
+    <Property Name="ElementName" Value="[dbo].[TiposContas].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TiposContas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TipoContaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="46539239-fa1a-43ba-a948-51b5d31c4ba7" ChangeDateTime="12/31/2018 17:51:57">
+    <Property Name="ElementName" Value="[dbo].[TiposPessoas].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TiposPessoas]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TipoPessoaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e4b84fab-40c7-47dd-907a-d0f39831033d" ChangeDateTime="12/31/2018 18:04:47">
+    <Property Name="ElementName" Value="[dbo].[ContasCorrentes].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContasCorrentes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BancoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70e09a35-5e2f-40a3-bba6-2b0d36e3a1bd" ChangeDateTime="12/31/2018 19:14:29">
+    <Property Name="ElementName" Value="[dbo].[Lancamentos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lancamentos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LancamentoId" />
+  </Operation>
+</Operations>

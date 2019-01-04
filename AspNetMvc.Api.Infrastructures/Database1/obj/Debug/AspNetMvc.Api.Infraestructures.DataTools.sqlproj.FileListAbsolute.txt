@@ -1,9 +1,0 @@
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\bin\Debug\AspNetMvc.Api.Infraestructures.DataTools.dacpac
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\bin\Debug\Database1.dll
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\bin\Debug\Database1.pdb
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\Database1.dll
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\Database1.pdb
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\Model.xml
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\refactor.xml
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\postdeploy.sql
-Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\predeploy.sql
