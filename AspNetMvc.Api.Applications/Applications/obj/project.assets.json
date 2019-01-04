@@ -3286,23 +3286,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macos\\.nuget\\packages\\": {},
+    "C:\\Users\\Roberto Gomes\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj",
+      "projectUniqueName": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj",
       "projectName": "AspNetMvc.Api.Applications",
-      "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj",
-      "packagesPath": "C:\\Users\\macos\\.nuget\\packages\\",
-      "outputPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\obj\\",
+      "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj",
+      "packagesPath": "C:\\Users\\Roberto Gomes\\.nuget\\packages\\",
+      "outputPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\macos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Roberto Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3310,13 +3310,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://abcbrasil.pkgs.visualstudio.com/_packaging/ABCBrasil.Infraestrutura/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj": {
-              "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj"
+            "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj": {
+              "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj"
             }
           }
         }

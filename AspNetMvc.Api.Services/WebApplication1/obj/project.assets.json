@@ -4450,7 +4450,7 @@
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
-      "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
+      "sha512": "AIgEc1up4pvH8kXy+eG1x4Qfqd6piAq3yk11pveCQXWNkkYoiKdflSmcJZuWcerdMcAaoF0xC/mWGoTW4vF4Dg==",
       "type": "package",
       "path": "microsoft.aspnet.webapi.client/5.2.6",
       "files": [
@@ -7183,11 +7183,12 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -11983,23 +11984,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macos\\.nuget\\packages\\": {},
+    "C:\\Users\\Roberto Gomes\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\macos\\.nuget\\packages\\",
-      "outputPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\obj\\",
+      "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\Roberto Gomes\\.nuget\\packages\\",
+      "outputPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Services\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\macos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Roberto Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12007,19 +12008,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://abcbrasil.pkgs.visualstudio.com/_packaging/ABCBrasil.Infraestrutura/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj": {
-              "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj"
+            "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj": {
+              "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Applications\\Applications\\AspNetMvc.Api.Applications.csproj"
             },
-            "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj": {
-              "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj"
+            "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj": {
+              "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Domains\\AspNetMvc.Api.Domains.Bussiness\\AspNetMvc.Api.Domains.csproj"
             },
-            "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Infrastructures\\AspNetMvc.Api.Infrastructures.DataAccess\\AspNetMvc.Api.Infrastructures.DataAccess.csproj": {
-              "projectPath": "Y:\\Documents\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Infrastructures\\AspNetMvc.Api.Infrastructures.DataAccess\\AspNetMvc.Api.Infrastructures.DataAccess.csproj"
+            "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Infrastructures\\AspNetMvc.Api.Infrastructures.DataAccess\\AspNetMvc.Api.Infrastructures.DataAccess.csproj": {
+              "projectPath": "D:\\Roberto\\br.com.indra\\indra-test-backend-201812\\AspNetMvc.Api.Infrastructures\\AspNetMvc.Api.Infrastructures.DataAccess\\AspNetMvc.Api.Infrastructures.DataAccess.csproj"
             }
           }
         }
@@ -12053,7 +12055,6 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
