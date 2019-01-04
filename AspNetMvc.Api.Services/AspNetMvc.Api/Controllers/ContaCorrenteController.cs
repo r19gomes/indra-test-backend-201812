@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AspNetMvc.Api.Applications.Service.ContaCorrente;
+using AspNetMvc.Api.Applications.Contract.ContaCorrente;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
 using Microsoft.AspNetCore.Mvc;
 

@@ -120,7 +120,7 @@ namespace AppConsole
                 if (total == 0)
                     ctx.Add(
                         new Banco {
-                            Codigo = "0008",
+                            Codigo = "008",
                             Nome = "BANCO DO ESTADO DE SAO PAULO S",
                             Apelido = "BANCO MERI",
                             NumeroCnpj = "61411633000268",
@@ -136,7 +136,7 @@ namespace AppConsole
                 if (total == 0)
                     ctx.Add(
                         new Banco {
-                            Codigo = "0009",
+                            Codigo = "009",
                             Nome = "BACEN",
                             Apelido = "BACEN",
                             NumeroCnpj = null,

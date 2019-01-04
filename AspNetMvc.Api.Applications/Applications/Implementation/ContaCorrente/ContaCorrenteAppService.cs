@@ -1,4 +1,4 @@
-﻿using AspNetMvc.Api.Applications.Service.ContaCorrente;
+﻿using AspNetMvc.Api.Applications.Contract.ContaCorrente;
 using AspNetMvc.Api.Domains.Contracts;
 using AspNetMvc.Api.Domains.Contracts.Services;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;

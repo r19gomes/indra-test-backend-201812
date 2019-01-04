@@ -1,5 +1,5 @@
 ﻿using AspNetMvc.Api.Applications.Implementation.ContaCorrente;
-using AspNetMvc.Api.Applications.Service.ContaCorrente;
+using AspNetMvc.Api.Applications.Contract.ContaCorrente;
 using AspNetMvc.Api.Domains.Contracts.Repositories;
 using AspNetMvc.Api.Domains.Contracts.Services;
 using AspNetMvc.Api.Domains.Services;
