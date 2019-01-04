@@ -654,7 +654,7 @@
     "Microsoft.CSharp/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Mg7IqHdgGsyeXSApz85limYBHCUk4dQF4EPnSqcIfFiFA2C6bH4jdtYTsLeYnRN03BkPlNHXtbwlzGn8ASq8LA==",
+      "sha512": "sha512-ShGjgRL3UHUXcoPSlq8jDB6b+9WHo4n8VcY9ex7egt6kuHFuK3Z6BUN9ClF3Y8dR1yIoaRkHPQBfX/IH5i/YXg==",
       "path": "microsoft.csharp/4.4.0",
       "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
     },
@@ -1032,7 +1032,7 @@
     "System.Security.Principal.Windows/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ynC5BKYwhgON6WH/yPM5ZLKc19wqC13A5fl4hZa5Lf8pQwv1YmbCPKGualWSRhEoOVWH2FzZhOXauER6al4Upg==",
+      "sha512": "sha512-yNxhQZ5oJb2Q7VqNj1Af6e+9KXzHcXJdv+eE+1Lp2+FYBwmVLQs2LfQpeSfz5RxorwlV0EpNbkLatPScb+XEWw==",
       "path": "system.security.principal.windows/4.4.0",
       "hashPath": "system.security.principal.windows.4.4.0.nupkg.sha512"
     },
@@ -1046,7 +1046,7 @@
     "System.Text.Encoding.CodePages/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FpAgMC+BX6OOCiRebYqHP3r3aYU7o0lopPOo4zKyGc5LWXFEYRUaKtoXXvAJ3sP+IDOK/KBxZaiVAdi+QdZ0TA==",
+      "sha512": "sha512-epF1P00AFbqPy5jZx3fpEn5qwlBDZ+dck71xYc/jLibfY6BtoFKOqoj84YHcQWV9HcWb7M13aVJ61XCdK8/3XA==",
       "path": "system.text.encoding.codepages/4.4.0",
       "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
     },

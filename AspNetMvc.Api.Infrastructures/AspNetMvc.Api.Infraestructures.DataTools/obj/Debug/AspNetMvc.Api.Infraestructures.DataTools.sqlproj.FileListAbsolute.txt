@@ -7,3 +7,13 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infras
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\refactor.xml
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\postdeploy.sql
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\Database1\obj\Debug\predeploy.sql
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\AspNetMvc.Api.Infraestructures.DataTools.dacpac
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\Database1.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\Database1.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\AspNetMvc.Api.Infraestructures.DataTools.sqlprojAssemblyReference.cache
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Model.xml
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\refactor.xml
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\postdeploy.sql
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\predeploy.sql
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.pdb

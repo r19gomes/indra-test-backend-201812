@@ -6,6 +6,7 @@ using System.Text;
 
 namespace AspNetMvc.Api.Infrastructures.DataAccess.Entities
 {
+    [Table("Agencias")]
     public partial class Agencia
     {
         public long BancoId { get; set; }

@@ -19,3 +19,6 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infras
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Infrastructures.DataAccess.csproj.CopyComplete
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infrastructures.DataAccess\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Infrastructures.DataAccess.csproj.CopyComplete

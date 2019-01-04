@@ -28,3 +28,5 @@ Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\obj\Debug\netcoreapp2.1\AspNetMvc.Api.Tests.AppConsole.pdb
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
 Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.dll
+D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Tests\AspNetMvc.Api.Tests.AppConsole\bin\Debug\netcoreapp2.1\AspNetMvc.Api.Domains.pdb

@@ -35,4 +35,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="BancoId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="70e09a35-5e2f-40a3-bba6-2b0d36e3a1bd" ChangeDateTime="12/31/2018 19:14:29" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Lancamentos].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Lancamentos]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LancamentoId" />
+  </Operation>
 </Operations>
