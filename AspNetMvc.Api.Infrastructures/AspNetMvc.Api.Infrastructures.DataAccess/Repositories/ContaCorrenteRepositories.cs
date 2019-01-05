@@ -1,18 +1,17 @@
 ﻿using AspNetMvc.Api.Domains.Contracts.Repositories;
-using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
 using AspNetMvc.Api.Infrastructures.DataAccess.Contexts;
-using AspNetMvc.Api.Infrastructures.DataAccess.Entities;
-using AspNetMvc.Api.Infrastructures.DataAccess.Repositorios.Base;
+using AspNetMvc.Api.Infrastructures.DataAccess.Repositories.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using ContaCorrente = AspNetMvc.Api.Infrastructures.DataAccess.Entities.ContaCorrente;
 
-namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositorios
+namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories
 {
     public class ContaCorrenteRepositories : RepositoryBase<ContaCorrente>, IContaCorrenteRepositories
     {
+        #region Builders
+
         public ContaCorrenteRepositories()
         {
         }
@@ -22,6 +21,10 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositorios
             if (dbContext == null)
                 dbContext = base.DbContext;
         }
+
+        #endregion
+
+        #region Methods
 
         public Domains.Dtos.ContaCorrente.ContaCorrente Get(long id)
         {
@@ -33,7 +36,8 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositorios
             IList<Domains.Dtos.ContaCorrente.ContaCorrente> result =
                 new List<Domains.Dtos.ContaCorrente.ContaCorrente>();
 
-            using (var ctx = new DbContext())
+        
+    using (var ctx = new DbContext())
             {
                 var ret = ctx.ContasCorrentes.ToList();
                 if (ret.Count > 0)
@@ -53,5 +57,7 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositorios
 
             return result;
         }
+
+        #endregion
     }
 }

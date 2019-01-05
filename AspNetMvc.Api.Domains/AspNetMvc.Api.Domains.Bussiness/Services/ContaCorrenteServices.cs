@@ -1,25 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-//using AspNetMvc.Api.Domains.Contracts.Repositorios;
+﻿using AspNetMvc.Api.Domains.Contracts.Repositories;
 using AspNetMvc.Api.Domains.Contracts.Services;
-using AspNetMvc.Api.Domains.Contracts.Repositories;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
+using System;
+using System.Collections.Generic;
 
 namespace AspNetMvc.Api.Domains.Services
 {
     public class ContaCorrenteServices : IContaCorrenteServices
     {
+        #region Properties | Fields
+
         private readonly IContaCorrenteRepositories _contaCorrenteRepositories;
+
+        #endregion
+
+        #region Builders
 
         public ContaCorrenteServices()
         {
 
         }
+
         public ContaCorrenteServices(IContaCorrenteRepositories contaCorrenteRepositories):base()
         {
             _contaCorrenteRepositories = contaCorrenteRepositories;
         }
+
+        #endregion
+
+        #region Methods
 
         public ContaCorrenteResponse Get(long id)
         {
@@ -39,5 +48,7 @@ namespace AspNetMvc.Api.Domains.Services
 
             return response;
         }
+
+        #endregion
     }
 }

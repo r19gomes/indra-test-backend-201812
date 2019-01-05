@@ -1,14 +1,17 @@
-﻿using AspNetMvc.Api.Applications.Implementation.ContaCorrente;
+﻿using AspNetMvc.Api.Applications.Contract.Banco;
 using AspNetMvc.Api.Applications.Contract.ContaCorrente;
+using AspNetMvc.Api.Applications.Implementation.Banco;
+using AspNetMvc.Api.Applications.Implementation.ContaCorrente;
 using AspNetMvc.Api.Domains.Contracts.Repositories;
 using AspNetMvc.Api.Domains.Contracts.Services;
 using AspNetMvc.Api.Domains.Services;
-using AspNetMvc.Api.Infrastructures.DataAccess.Repositorios;
+using AspNetMvc.Api.Infrastructures.DataAccess.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace AspNetMvc.Api
 {
@@ -21,49 +24,7 @@ namespace AspNetMvc.Api
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        //public void ConfigureServices(IServiceCollection services)
-        //{
-        //    services
-        //        .AddMvc()
-        //        .AddControllersAsServices()
-        //        .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-        //    //services.AddSingleton<IContaCorrenteAppService, ContaCorrenteAppService>();
-        //    //services.AddScoped<IContaCorrenteAppService, ContaCorrenteAppService>();
-        //    //services.AddTransient<IContaCorrenteAppService, ContaCorrenteAppService>();
-        //    //services.AddSingleton<IContaCorrenteAppService>(x => x.GetRequiredService<ContaCorrenteAppService>());
-
-        //    //services.RegisterAllTypes<IContaCorrenteAppService>(new[] { typeof(Startup).Assembly });
-
-        //    services.AddTransient<IContaCorrenteAppService, ContaCorrenteAppService>();
-        //    //services.AddHttpClient<IContaCorrenteAppService, ContaCorrenteAppService>();
-
-        //    // Create an Autofac Container and push the framework services
-        //    //var containerBuilder = new ContainerBuilder();
-        //    //containerBuilder.Populate(services);
-
-        //    //// Register your own services within Autofac
-        //    //containerBuilder.RegisterType<IContaCorrenteAppService>().As<IContaCorrenteAppService>();
-
-        //    //// Build the container and return an IServiceProvider from Autofac
-        //    //var container = containerBuilder.Build();
-        //    //return container.Resolve<IServiceProvider>();
-        //}
-
-        //public IServiceProvider ConfigureServices(IServiceCollection services)
-        //{
-        //    services.AddMvc();
-
-        //    // Create the container builder.
-        //    var builder = new ContainerBuilder();
-        //    builder.RegisterType<ContaCorrenteAppService>().As<IContaCorrenteAppService>();
-        //    builder.Populate(services);
-        //    var container = builder.Build();
-
-        //    // Create the IServiceProvider based on the container.
-        //    return new AutofacServiceProvider(container);
-        //}
+        
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -71,6 +32,15 @@ namespace AspNetMvc.Api
                 .AddMvc()
                 .AddControllersAsServices()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "Contacts API", Version = "v1" });
+            });
+
+            services.AddScoped<IBancoRepositories, BancoRepositories>();
+            services.AddScoped<IBancoServices, BancoServices>();
+            services.AddScoped<IBancoAppService, BancoAppService>();
 
             services.AddScoped<IContaCorrenteRepositories, ContaCorrenteRepositories>();
             services.AddScoped<IContaCorrenteServices, ContaCorrenteServices>();
@@ -92,6 +62,12 @@ namespace AspNetMvc.Api
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Contacts API V1");
+            });
         }
     }
 }

@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositorios.Base
+namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories.Base
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {

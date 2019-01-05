@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AspNetMvc.Api.Domains.Dtos.Banco;
 
 namespace AspNetMvc.Api.Applications.Contract.Banco
 {
     public interface IBancoQueries
     {
-        void GetAll();
+        BancoResponse GetAll();
 
-        void Get(long id);
+        BancoResponse Get(long id);
     }
 }

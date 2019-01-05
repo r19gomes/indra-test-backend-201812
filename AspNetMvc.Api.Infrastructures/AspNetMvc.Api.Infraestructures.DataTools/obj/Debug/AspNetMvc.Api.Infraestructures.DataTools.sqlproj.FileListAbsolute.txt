@@ -13,3 +13,9 @@ D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\AspNetMvc.Api.Infraestructures.DataTools.sqlprojAssemblyReference.cache
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.dll
 D:\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.pdb
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\AspNetMvc.Api.Infraestructures.DataTools.dacpac
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\Database1.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\bin\Debug\Database1.pdb
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\AspNetMvc.Api.Infraestructures.DataTools.sqlprojAssemblyReference.cache
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.dll
+Y:\Documents\Roberto\br.com.indra\indra-test-backend-201812\AspNetMvc.Api.Infrastructures\AspNetMvc.Api.Infraestructures.DataTools\obj\Debug\Database1.pdb

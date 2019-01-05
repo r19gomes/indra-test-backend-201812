@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ContasCorrentes] (Table)
+       [dbo].[Lancamentos] (Table)
+       [dbo].[FK_ContasCorrentes_BancoId_AgenciaId_Agencias_BancoId_AgenciaId] (Foreign Key)
+       [dbo].[FK_ContasCorrentes_TipoContaId_TiposContas] (Foreign Key)
+       [dbo].[FK_ContasCorrentes_TipoPessoaId_TiposPessoas] (Foreign Key)
+       [dbo].[FK_Lancamentos_BancoId_AgenciaId_ContaCorrenteId_ContasCorrentes_BancoId_AgenciaId_ContaCorrenteId] (Foreign Key)
+       [dbo].[FK_Lancamentos_LancamentoPaiId_Lancamentos_LancamentoId] (Foreign Key)
+
+** Supporting actions

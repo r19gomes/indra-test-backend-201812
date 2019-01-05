@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/AspNetMvc.Api.Services/AspNetMvc.Api/AspNetMvc.Api.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

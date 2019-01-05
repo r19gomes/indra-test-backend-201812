@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AspNetMvc.Api.Applications.Contract.Banco;
-using Microsoft.AspNetCore.Http;
+﻿using AspNetMvc.Api.Applications.Contract.Banco;
+using AspNetMvc.Api.Domains.Dtos.Banco;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace AspNetMvc.Api.Controllers
 {
@@ -20,9 +17,29 @@ namespace AspNetMvc.Api.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        public ActionResult<BancoResponse> Get()
         {
-            return "Roberto";
+            var response = new BancoResponse();
+
+            try
+            {
+                response = _bancoAppService.GetAll();
+
+                if (response.Banco.Count == 0)
+                {
+                    response.Message = "Dados da Conta corrente não encontrado!";
+                }
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.ResourceCode = string.Empty;
+                response.ErrorCode = 1;
+                response.Message = "Erro ao obter a lista de Conta Corrente.";
+                response.Erros.Add(new AspNetMvc.Api.Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
+            }
+
+            return response;
         }
     }
 }

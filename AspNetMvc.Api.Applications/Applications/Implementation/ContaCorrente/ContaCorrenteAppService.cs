@@ -1,15 +1,19 @@
 ﻿using AspNetMvc.Api.Applications.Contract.ContaCorrente;
-using AspNetMvc.Api.Domains.Contracts;
 using AspNetMvc.Api.Domains.Contracts.Services;
 using AspNetMvc.Api.Domains.Dtos.ContaCorrente;
-using AspNetMvc.Api.Domains.Services;
 using System;
 
 namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
 {
     public class ContaCorrenteAppService : IContaCorrenteAppService
     {
+        #region Properties | Fields
+
         private readonly IContaCorrenteServices _contaCorrenteService;
+
+        #endregion
+
+        #region Builders
 
         public ContaCorrenteAppService()
         {
@@ -20,6 +24,10 @@ namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
             _contaCorrenteService = contaCorrenteService;
         }
 
+        #endregion
+
+        #region Methods
+
         public ContaCorrenteResponse GetAll()
         {
             return _contaCorrenteService.GetAll();
@@ -29,5 +37,7 @@ namespace AspNetMvc.Api.Applications.Implementation.ContaCorrente
         {
             return _contaCorrenteService.Get(id);
         }
+
+        #endregion
     }
 }
