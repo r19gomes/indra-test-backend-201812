@@ -16,6 +16,7 @@ namespace AspNetMvc.Api.Controllers
             _bancoAppService = bancoAppService;
         }
 
+        [Route("Get")]
         [HttpGet]
         public ActionResult<BancoResponse> Get()
         {
@@ -40,6 +41,34 @@ namespace AspNetMvc.Api.Controllers
             }
 
             return response;
+        }
+
+        [Route("Insert")]
+        [HttpPost]
+        public ActionResult<BancoResponse> Insert()
+        {
+            return null;
+        }
+
+        [Route("Update")]
+        [HttpPut]
+        public ActionResult<BancoResponse> Update()
+        {
+            return null;
+        }
+
+        [Route("SaveOrUpdate")]
+        [HttpPost]
+        public ActionResult<BancoResponse> SaveOrUpdate()
+        {
+            return null;
+        }
+
+        [Route("Delete")]
+        [HttpDelete]
+        public ActionResult<BancoResponse> Delete(long id)
+        {
+            return null;
         }
     }
 }

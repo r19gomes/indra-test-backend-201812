@@ -17,14 +17,12 @@ namespace AspNetMvc.Api
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
-
-        public IConfiguration Configuration { get; }
-
-        
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -33,9 +31,21 @@ namespace AspNetMvc.Api
                 .AddControllersAsServices()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            // Configurando o serviço de documentação do Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Contacts API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info
+                {
+                    Title = "Teste Prático Indra",
+                    Version = "v1",
+                    Description = "TESTE PRÁTICO INDRA para o Banco Santander de API REST criada com o ASP.NET Core",
+                    Contact = new Contact
+                    {
+                        Name = "Roberto Gomes da Silva",
+                        Email = "r19gomes@gmail.com",
+                        Url = "https://github.com/r19gomes"
+                    }
+                });
             });
 
             services.AddScoped<IBancoRepositories, BancoRepositories>();
@@ -62,12 +72,15 @@ namespace AspNetMvc.Api
 
             app.UseHttpsRedirection();
             app.UseMvc();
-            app.UseSwagger();
 
+            // Ativando middlewares para uso do Swagger
+            app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Contacts API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json",
+                    "TESTE PRÁTICO INDRA API V1");
             });
         }
+
     }
 }

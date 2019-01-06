@@ -23,12 +23,6 @@ namespace AspNetMvc.Api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            // Register the Lamar service container
-            //.UseLamar()
-            // Your normal webhost config
-            // .UseKestrel(c => c.AddServerHeader = false)
-            // .UseIISIntegration()
-            // .CaptureStartupErrors(true)
             .UseStartup<Startup>();
     }
 }
