@@ -28,7 +28,7 @@ namespace AspNetMvc.Api.Controllers
 
                 if (response.Banco.Count == 0)
                 {
-                    response.Message = "Dados da Conta corrente não encontrado!";
+                    response.Message = "Dados do Banco não encontrado!";
                 }
                 return response;
             }
@@ -36,7 +36,7 @@ namespace AspNetMvc.Api.Controllers
             {
                 response.ResourceCode = string.Empty;
                 response.ErrorCode = 1;
-                response.Message = "Erro ao obter a lista de Conta Corrente.";
+                response.Message = "Erro ao obter a lista dos Bancos.";
                 response.Erros.Add(new AspNetMvc.Api.Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
             }
 
@@ -45,9 +45,29 @@ namespace AspNetMvc.Api.Controllers
 
         [Route("Insert")]
         [HttpPost]
-        public ActionResult<BancoResponse> Insert()
+        public ActionResult<BancoResponse> Insert(BancoRequest request)
         {
-            return null;
+            var response = new BancoResponse();
+
+            try
+            {
+                response = _bancoAppService.Insert(request);
+
+                if (response.Banco.Count == 0)
+                {
+                    response.Message = "Dados do Banco salvo não encontrado!";
+                }
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.ResourceCode = string.Empty;
+                response.ErrorCode = 1;
+                response.Message = "Erro ao obter a lista dos Bancos.";
+                response.Erros.Add(new AspNetMvc.Api.Domains.Dtos.Error(ex.Message, "", ex.StackTrace));
+            }
+
+            return response;
         }
 
         [Route("Update")]

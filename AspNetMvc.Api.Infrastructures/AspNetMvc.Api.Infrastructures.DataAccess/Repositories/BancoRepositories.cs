@@ -1,4 +1,5 @@
 ﻿using AspNetMvc.Api.Domains.Contracts.Repositories;
+using AspNetMvc.Api.Domains.Dtos.Banco;
 using AspNetMvc.Api.Infrastructures.DataAccess.Contexts;
 using AspNetMvc.Api.Infrastructures.DataAccess.Repositories.Base;
 using System;
@@ -36,7 +37,6 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories
             IList<Domains.Dtos.Banco.Banco> result =
                 new List<Domains.Dtos.Banco.Banco>();
 
-
             using (var ctx = new DbContext())
             {
                 var ret = ctx.Bancos.ToList();
@@ -61,6 +61,14 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories
                     }
                 }
             }
+
+            return result;
+        }
+
+        public Domains.Dtos.Banco.Banco Insert(BancoRequest request)
+        {
+            IList<Domains.Dtos.Banco.Banco> result =
+                new List<Domains.Dtos.Banco.Banco>();
 
             return result;
         }

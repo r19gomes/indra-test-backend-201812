@@ -11,6 +11,8 @@ namespace AspNetMvc.Api.Domains.Contracts.Repositories
 
         Banco Get(long id);
 
+        Banco Insert(BancoRequest request);
+
         #endregion
     }
 }

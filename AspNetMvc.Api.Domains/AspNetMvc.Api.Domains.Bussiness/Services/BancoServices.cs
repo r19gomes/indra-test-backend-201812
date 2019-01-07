@@ -49,6 +49,18 @@ namespace AspNetMvc.Api.Domains.Services
             return response;
         }
 
+        public BancoResponse Insert(BancoRequest request)
+        {
+            var response = new BancoResponse();
+
+            IList<Banco> banco;
+            banco = _bancoRepositories.Insert(request);
+
+            response.Banco = banco;
+
+            return response;
+        }
+
         #endregion
 
     }

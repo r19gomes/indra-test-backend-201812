@@ -38,6 +38,11 @@ namespace AspNetMvc.Api.Applications.Implementation.Banco
             return _bancoService.GetAll();
         }
 
+        public BancoResponse Insert(BancoRequest request)
+        {
+            return _bancoService.Insert(request);
+        }
+
         #endregion
 
     }
