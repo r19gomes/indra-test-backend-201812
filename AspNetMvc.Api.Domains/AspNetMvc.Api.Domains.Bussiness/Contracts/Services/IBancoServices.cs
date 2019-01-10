@@ -12,6 +12,8 @@ namespace AspNetMvc.Api.Domains.Contracts.Services
 
         BancoResponse Insert(BancoRequest request);
 
+        BancoResponse Update(BancoRequest request);
+
         #endregion
     }
 }

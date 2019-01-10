@@ -10,7 +10,12 @@ namespace AspNetMvc.Api.Domains.Dtos
         public string CallStack { get; set; }
         public string ErrorMessage { get; set; }
 
-        public Error(string ErrorMessage, string ErrorCode, string CallStack)
+        public Error()
+        {
+
+        }
+
+        public Error(string ErrorMessage, string ErrorCode, string CallStack):base()
         {
             this.ErrorCode = ErrorCode;
             this.CallStack = CallStack;

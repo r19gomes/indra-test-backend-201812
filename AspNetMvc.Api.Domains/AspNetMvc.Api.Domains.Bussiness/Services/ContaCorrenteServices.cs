@@ -45,6 +45,7 @@ namespace AspNetMvc.Api.Domains.Services
             contaCorrente = _contaCorrenteRepositories.GetAll();
 
             response.ContaCorrente = contaCorrente;
+            response.Success = true;
 
             return response;
         }

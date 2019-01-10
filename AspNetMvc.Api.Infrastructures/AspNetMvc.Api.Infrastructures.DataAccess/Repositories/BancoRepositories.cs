@@ -29,7 +29,29 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories
 
         public Domains.Dtos.Banco.Banco Get(long id)
         {
-            throw new NotImplementedException();
+            Domains.Dtos.Banco.Banco result =
+                new Domains.Dtos.Banco.Banco();
+
+            using (var ctx = new DbContext())
+            {
+
+                var banco = ctx.Bancos.Find(id);
+
+                result.BancoId = banco.BancoId;
+                result.Codigo = banco.Codigo;
+                result.Nome = banco.Nome;
+                result.Apelido = banco.Apelido;
+                result.NumeroCnpj = banco.NumeroCnpj;
+                result.WebSiteOficial = banco.WebSiteOficial;
+                result.FlagStatus = banco.FlagStatus;
+                result.CadastroUsuarioId = banco.CadastroUsuarioId;
+                result.CadastroDataHora = banco.CadastroDataHora;
+                result.AtualizacaoUsuarioId = banco.AtualizacaoUsuarioId;
+                result.AtualizacaoDataHora = banco.AtualizacaoDataHora;
+
+            }
+
+            return result;
         }
 
         public IList<Domains.Dtos.Banco.Banco> GetAll()
@@ -67,8 +89,54 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories
 
         public Domains.Dtos.Banco.Banco Insert(BancoRequest request)
         {
-            IList<Domains.Dtos.Banco.Banco> result =
-                new List<Domains.Dtos.Banco.Banco>();
+            Domains.Dtos.Banco.Banco result =
+                 new Domains.Dtos.Banco.Banco();
+
+            using (var ctx = new DbContext())
+            {
+                ctx.Add(new Entities.Banco
+                {
+                    BancoId = request.Banco.BancoId,
+                    Codigo = request.Banco.Codigo,
+                    Nome = request.Banco.Nome,
+                    Apelido = request.Banco.Apelido,
+                    NumeroCnpj = request.Banco.NumeroCnpj,
+                    WebSiteOficial = request.Banco.WebSiteOficial,
+                    FlagStatus = request.Banco.FlagStatus,
+                    CadastroUsuarioId = request.Banco.CadastroUsuarioId,
+                    CadastroDataHora = request.Banco.CadastroDataHora,
+                    AtualizacaoUsuarioId = request.Banco.AtualizacaoUsuarioId,
+                    AtualizacaoDataHora = request.Banco.AtualizacaoDataHora
+                });
+                ctx.SaveChanges();
+            }
+
+            return result;
+        }
+
+        public Domains.Dtos.Banco.Banco Update(BancoRequest request)
+        {
+            Domains.Dtos.Banco.Banco result = 
+                new Domains.Dtos.Banco.Banco();
+
+            using (var ctx = new DbContext())
+            {
+                ctx.Update(new Entities.Banco
+                {
+                    BancoId = request.Banco.BancoId,
+                    Codigo = request.Banco.Codigo,
+                    Nome = request.Banco.Nome,
+                    Apelido = request.Banco.Apelido,
+                    NumeroCnpj = request.Banco.NumeroCnpj,
+                    WebSiteOficial = request.Banco.WebSiteOficial,
+                    FlagStatus = request.Banco.FlagStatus,
+                    CadastroUsuarioId = request.Banco.CadastroUsuarioId,
+                    CadastroDataHora = request.Banco.CadastroDataHora,
+                    AtualizacaoUsuarioId = request.Banco.AtualizacaoUsuarioId,
+                    AtualizacaoDataHora = request.Banco.AtualizacaoDataHora
+                });
+                ctx.SaveChanges();
+            }
 
             return result;
         }

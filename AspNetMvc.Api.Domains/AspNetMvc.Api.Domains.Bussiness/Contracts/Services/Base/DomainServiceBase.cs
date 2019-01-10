@@ -16,30 +16,25 @@ namespace AspNetMvc.Api.Domains.Contracts.Services.Base
             _repositoryBase = repositoryBase;
         }
 
-        public virtual void Inserir(T entity)
+        public virtual void Insert(T entity)
         {
-            _repositoryBase.Inserir(entity);
+            _repositoryBase.Insert(entity);
         }
 
-        public virtual void Alterar(T entity)
+        public virtual void Update(T entity)
         {
-            _repositoryBase.Alterar(entity);
+            _repositoryBase.Update(entity);
         }
 
-        public virtual void Excluir(T entity)
+        public virtual void Delete(T entity)
         {
-            _repositoryBase.Excluir(entity);
+            _repositoryBase.Delete(entity);
         }
 
 
-        public virtual IEnumerable<T> SelecionarTodos(params Expression<Func<T, object>>[] includes)
+        public virtual IEnumerable<T> GetAll(params Expression<Func<T, object>>[] includes)
         {
-            return _repositoryBase.SelecionarTodos(includes);
-        }
-
-        public virtual IEnumerable<T> SelecionarTodosSomenteLeitura(params Expression<Func<T, object>>[] includes)
-        {
-            return SelecionarTodosSomenteLeitura(includes);
+            return _repositoryBase.GetAll(includes);
         }
 
         public void Commit()

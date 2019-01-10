@@ -15,6 +15,7 @@ namespace AspNetMvc.Api.Domains.Dtos.Banco
             Nome = banco.Nome;
             Apelido = banco.Apelido;
             NumeroCnpj = banco.NumeroCnpj;
+            WebSiteOficial = banco.WebSiteOficial;
             FlagStatus = banco.FlagStatus;
             CadastroUsuarioId = banco.CadastroUsuarioId;
             CadastroDataHora = banco.CadastroDataHora;
@@ -36,15 +37,7 @@ namespace AspNetMvc.Api.Domains.Dtos.Banco
 
         public string NumeroCnpj { get; set; }
 
-        public bool FlagStatus { get; set; }
-
-        public long CadastroUsuarioId { get; set; }
-
-        public DateTime CadastroDataHora { get; set; }
-
-        public long? AtualizacaoUsuarioId { get; set; }
-
-        public DateTime? AtualizacaoDataHora { get; set; }
+        public string WebSiteOficial { get; set; }
 
         #endregion
     }

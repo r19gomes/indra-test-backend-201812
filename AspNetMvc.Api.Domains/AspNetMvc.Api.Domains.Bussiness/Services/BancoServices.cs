@@ -32,9 +32,18 @@ namespace AspNetMvc.Api.Domains.Services
 
         public BancoResponse Get(long id)
         {
-            //aquibob
-            _bancoRepositories.Get(id);
-            throw new NotImplementedException();
+            var response = new BancoResponse();
+
+            var result = _bancoRepositories.Get(id);
+            IList<Banco> banco = new List<Banco>()
+            {
+                new Banco(result)
+            };
+
+            response.Banco = banco;
+            response.Success = true;
+
+            return response;
         }
 
         public BancoResponse GetAll()
@@ -45,6 +54,7 @@ namespace AspNetMvc.Api.Domains.Services
             banco = _bancoRepositories.GetAll();
 
             response.Banco = banco;
+            response.Success = true;
 
             return response;
         }
@@ -53,10 +63,30 @@ namespace AspNetMvc.Api.Domains.Services
         {
             var response = new BancoResponse();
 
-            IList<Banco> banco;
-            banco = _bancoRepositories.Insert(request);
+            var result = _bancoRepositories.Insert(request);
+            IList<Banco> banco = new List<Banco>()
+            {
+                new Banco(result)
+            };
 
             response.Banco = banco;
+            response.Success = true;
+
+            return response;
+        }
+
+        public BancoResponse Update(BancoRequest request)
+        {
+            var response = new BancoResponse();
+
+            var result = _bancoRepositories.Update(request);
+            IList<Banco> banco = new List<Banco>()
+            {
+                new Banco(result)
+            };
+
+            response.Banco = banco;
+            response.Success = true;
 
             return response;
         }

@@ -16,7 +16,6 @@ namespace AspNetMvc.Api.Domains.Dtos
         /// </summary>
         public bool Success { get; set; }
 
-
         /// <summary>
         /// codigo do erro gravado que retorna na Api (Resource)
         /// </summary>

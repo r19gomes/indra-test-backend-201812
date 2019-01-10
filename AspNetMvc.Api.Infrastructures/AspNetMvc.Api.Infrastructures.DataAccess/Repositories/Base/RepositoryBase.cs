@@ -20,27 +20,27 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories.Base
             DbContext = dbContext;
         }
 
-        public virtual void Inserir(T entity)
+        public virtual void Insert(T entity)
         {
             DbContext.Set<T>().Add(entity);
         }
 
-        public virtual void Alterar(T entity)
+        public virtual void Update(T entity)
         {
             DbContext.Entry(entity).State = EntityState.Modified;
         }
 
-        public virtual void Excluir(T entity)
+        public virtual void Delete(T entity)
         {
             DbContext.Set<T>().Remove(entity);
         }
 
-        public virtual T ObterPorId(int id)
+        public virtual T GetById(int id)
         {
             return DbContext.Set<T>().Find(id);
         }
 
-        public IQueryable<T> Selecionar(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
+        public IQueryable<T> Get(Expression<Func<T, bool>> predicate, params Expression<Func<T, object>>[] includes)
         {
             var query = DbContext.Set<T>().AsQueryable();
 
@@ -50,7 +50,7 @@ namespace AspNetMvc.Api.Infrastructures.DataAccess.Repositories.Base
             return query.Where(predicate);
         }
 
-        public IQueryable<T> SelecionarTodos(params Expression<Func<T, object>>[] includes)
+        public IQueryable<T> GetAll(params Expression<Func<T, object>>[] includes)
         {
             var query = DbContext.Set<T>().AsQueryable();
             if (includes != null)

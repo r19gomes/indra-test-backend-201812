@@ -1,5 +1,4 @@
-﻿using AspNetMvc.Api.Domains.Dtos.Common;
-using System;
+﻿using System;
 
 namespace AspNetMvc.Api.Domains.Dtos
 {
@@ -7,15 +6,15 @@ namespace AspNetMvc.Api.Domains.Dtos
     {
         #region Properties | Fields
 
-        public Int64 Id { get; set; }
+        public bool FlagStatus { get; set; }
 
-        public Status Status { get; set; }
+        public long CadastroUsuarioId { get; set; }
 
-        public DateTime InsertDate { get; set; }
+        public DateTime CadastroDataHora { get; set; }
 
-        public DateTime? UpdateDate { get; set; }
+        public long? AtualizacaoUsuarioId { get; set; }
 
-        public int UpdatePersonId { get; set; }
+        public DateTime? AtualizacaoDataHora { get; set; }
 
         #endregion
 
@@ -23,28 +22,21 @@ namespace AspNetMvc.Api.Domains.Dtos
 
         public Base()
         {
-            InsertDate = InsertDate > DateTime.MinValue ? InsertDate : DateTime.Now;
-            UpdateDate = UpdateDate.HasValue && UpdateDate.Value > DateTime.MinValue ? UpdateDate.Value : DateTime.Now;
+            CadastroDataHora = 
+                CadastroDataHora > DateTime.MinValue ? CadastroDataHora : DateTime.Now;
+            AtualizacaoDataHora = 
+                AtualizacaoDataHora.HasValue && AtualizacaoDataHora.Value > DateTime.MinValue ? AtualizacaoDataHora.Value : DateTime.Now;
         }
 
         public Base(Base dto)
         {
             if (dto != null)
             {
-                this.Id = dto.Id;
-                if (dto.Status != null)
-                    Status = new Status()
-                    {
-                        Id = dto.Status.Id,
-                        Name = dto.Status.Name,
-                        Identifier = dto.Status.Identifier,
-                        InsertDate = dto.Status.InsertDate,
-                        UpdateDate = dto.Status.UpdateDate,
-                        UpdatePersonId = dto.Status.UpdatePersonId
-                    };
-                this.InsertDate = dto.InsertDate;
-                this.UpdateDate = dto.UpdateDate;
-                this.UpdatePersonId = dto.UpdatePersonId;
+                this.FlagStatus = dto.FlagStatus;
+                this.CadastroUsuarioId = dto.CadastroUsuarioId;
+                this.CadastroDataHora = dto.CadastroDataHora;
+                this.AtualizacaoUsuarioId = dto.AtualizacaoUsuarioId;
+                this.AtualizacaoDataHora = dto.AtualizacaoDataHora;
             }
         }
 

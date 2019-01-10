@@ -13,6 +13,8 @@ namespace AspNetMvc.Api.Domains.Contracts.Repositories
 
         Banco Insert(BancoRequest request);
 
+        Banco Update(BancoRequest request);
+
         #endregion
     }
 }

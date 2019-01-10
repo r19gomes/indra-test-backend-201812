@@ -5,5 +5,7 @@ namespace AspNetMvc.Api.Applications.Contract.Banco
     public interface IBancoCommand
     {
         BancoResponse Insert(BancoRequest request);
+
+        BancoResponse Update(BancoRequest request);
     }
 }
